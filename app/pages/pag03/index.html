@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../../styles/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../../styles/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../modules/flamboyant-props.min.css"/>
+</head>
+<body role="application">
+  <header>
+    <div class="component-template-header fixedHeader hamburguerAtivo" id="header">
+      <div class="container-image"><img src="../../assets/img/logo.svg" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+      </div>
+    </div>
+  </header>
+  <interection>
+    <div class="container-interaction-arrows bottom   ">
+      <button class="container-arrow container-arrow-left arrow-left" tabindex="1001" role="button" aria-label="Voltar para a tela anterior." title="Seta para esquerda."></button>
+      <button class="container-arrow container-arrow-right arrow-right pulse" tabindex="1000" role="button" aria-label="Avançar para a próxima tela." title="Seta para direita."></button>
+    </div>
+  </interection>
+  <body class="color-bg-white" next-hide>
+    <div class="simplePage">
+      <section class="full-H"><img class="logoTop" src="../../assets/img/logo-colorido.svg" alt="">
+        <div class="container-template-wildcard prop-bg-fixed">
+          <div class="col   col-one col-01  col-full prop-pt8 prop-pb5 prop-tablet-pt7 prop-tablet-pb7" alt="" aria-label="" tabindex="-1">
+            <div class="wrapper">
+              <div class="container-list">
+                <div class="container-btn">
+                  <button class="botao btn1 pulse" tabindex="1" aria-label="" item="" onClick="navigate.goto('trilha1-01')">
+                    <div class="container-image"><img class="prop-h6" src="../../assets/img/menu01.png" alt="6°" aria-label="6°" tabindex="2"/>
+                    </div>
+                    <p class="text color-white prop-mt1 prop-txt-center prop-w-porc100" tabindex="3">Saúde, educação e assistência social</p>
+                  </button>
+                </div>
+                <div class="container-btn">
+                  <button class="botao btn2 block pulse" tabindex="4" aria-label="" item="" onClick="navigate.goto('trilha2-01')">
+                    <div class="container-image"><img class="prop-h6" src="../../assets/img/menu02.png" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+                    </div>
+                    <p class="text color-01 prop-mt1 prop-txt-center prop-w-porc100" tabindex="5">Desenvolvimento Econômico</p>
+                  </button>
+                </div>
+                <div class="container-btn">
+                  <button class="botao btn3 block pulse" tabindex="6" aria-label="" item="" onClick="navigate.goto('trilha3-01')">
+                    <div class="container-image"><img class="prop-h6" src="../../assets/img/menu03.png" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+                    </div>
+                    <p class="text color-01 prop-mt1 prop-txt-center prop-w-porc100" tabindex="7">Desenvolvimento Humano e Sustentável</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</body>
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../scripts/jquery-ui.min.js"></script>
+<script src="../../scripts/jquery.ui.touch-punch.min.js"></script>
+<script src="../../scripts/components.mixin.scripts.js"></script>
+<script src="../../scripts/page.js"></script>
+<script src="script.js"></script>
