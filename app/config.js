@@ -8,7 +8,7 @@ var config = {
         name: 'default'
     },
     acessibility: {
-        tools: true,
+        tools: false,
         outlines: false,
         vlibras: false,
         customLibras: false
@@ -37,6 +37,10 @@ var config = {
         {
             uid: 'pag03',
             src: 'pag03/index.html'
+        },
+        {
+            uid: 'pag04',
+            src: 'pag04/index.html'
         },
         {
             uid: 'pag05',
