@@ -8,7 +8,7 @@ var config = {
         name: 'default'
     },
     acessibility: {
-        tools: false,
+        tools: true,
         outlines: false,
         vlibras: false,
         customLibras: false
